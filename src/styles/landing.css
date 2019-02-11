@@ -1,0 +1,10 @@
+img{
+  margin: 5em auto 2em auto;
+  display:flex;
+  /* align-items:center; */
+  justify-content:center;
+}
+
+/* .container{
+  position: relative;
+} */
