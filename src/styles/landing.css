@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran');
+
+body{
+  background-image: url("https://webgradients.com/public/webgradients_png/056%20Shady%20Water.png");
+  font-family: 'Catamaran', sans-serif;
+}
+
+img{
+  margin: 5em auto 2em auto;
+  display:flex;
+  justify-content:center;
+  width: 300px;
+  border: 1px solid #ddd;
+}
+
+.card-header{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.card-title{
+  font-size: 1.5em;
+}
+
+.card-text{
+  font-size: 1em;
+}
+
+a{
+  padding: 0 1em 0 1em;
+
+}
+
+.LinkedIn{
+  color: #333;
+  font-size: 32px;
+}
+
+.LinkedIn:hover{
+  /* color: #86888A; */
+  color: #0077B5;
+}
+
+.Github{
+  color:#333;
+  font-size: 32px;
+}
+
+.Github:hover{
+  color: #6e5494
+}
+
+.Mail{
+  color:#333;
+  font-size: 32px;
+}
+
+.Mail:hover{
+  color: #2eaa0fa2
+}
