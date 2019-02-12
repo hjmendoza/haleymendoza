@@ -1,7 +1,11 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+import { Navbar, NavItem } from 'react-bootstrap';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
+// import '../styles/navbar.css'
 
-import NavBar from './components/navbar';
 import Landing from './components/landing';
+import NavBar from './components/navbar'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -13,6 +17,7 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <Landing />
+
       </div>
     );
   }
