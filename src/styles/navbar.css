@@ -1,0 +1,9 @@
+.navbar{
+  display: flex;
+}
+.contact{
+  /* float: right; */
+  /* display:flex;
+  justify-content: end; */
+  margin: 0 0 0 550%;
+}

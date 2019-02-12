@@ -5,8 +5,8 @@ import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { LinkedIn } from '@fortawesome/free-brands-svg-icons'
-// import { faLinkedIn} from '@fortawesome/free-brands-svg-icons'
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
+
 
 
 import '../styles/landing.css'
@@ -24,8 +24,9 @@ const Landing = () => {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <a className="LinkedIn" href="#linkedIn"><FontAwesomeIcon className="LinkedIn" icon={['fab', 'linkedin']} /></a>
-          <a className="Github" href="#github"><FontAwesomeIcon className="Github" icon={['fab', 'github']} /></a>
+          <a className="LinkedIn" href="https://www.linkedin.com/in/haleymendoza/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="LinkedIn" icon={['fab', 'linkedin']} /></a>
+          <a className="Github" href="https://github.com/hjmendoza" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="Github" icon={['fab', 'github']} /></a>
+          <a className="Mail" href="mailto:mendozahaley@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="Mail" icon={faEnvelope} /></a>
         </Card.Footer>
       </Card>
     </Container>
