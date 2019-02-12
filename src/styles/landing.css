@@ -3,8 +3,42 @@ img{
   display:flex;
   /* align-items:center; */
   justify-content:center;
+  width: 300px;
+  /* height: 200px; */
 }
 
-/* .container{
-  position: relative;
-} */
+.card-header{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.card-title{
+  font-size: 1.5em;
+}
+
+.card-text{
+  font-size: 1em;
+}
+
+a{
+  padding: 0 1em 0 1em;
+
+}
+
+.LinkedIn{
+  color: #0077B5;
+  font-size: 32px;
+}
+
+.LinkedIn:hover{
+  color: #86888A;
+}
+
+.Github{
+  color:#333;
+  font-size: 32px;
+}
+
+.Github:hover{
+  color: #6e5494
+}
