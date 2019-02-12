@@ -54,7 +54,7 @@ const About = () => {
       <Card.Text>
         Hi! I'm Haley - a Seattle-based full-stack developer with a background in psychology and research. I have always had a keen interest in technology and thus sought to empower myself with technical skills. Through programming, I found everything that I love about research but in tenfold! I am passionate about combining research fundamentals with technology to create impactful products and am currently looking for new opportunities!
    
-        In my free time, I enjoy running, taking advantage of Seattle summers, hiking, and learning new skills. Connect with me below! 
+        In my free time, I enjoy running, baking, hiking, and learning new skills. Connect with me below! 
       </Card.Text>
       <Card.Link href="https://www.linkedin.com/in/haleymendoza/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="LinkedIn" icon={['fab', 'linkedin']} /></Card.Link>
       <Card.Link href="https://github.com/hjmendoza" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="Github" icon={['fab', 'github']} /></Card.Link>
