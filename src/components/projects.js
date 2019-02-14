@@ -8,8 +8,8 @@ import '../styles/projects.css'
 const Projects = () => {
   return(
 <CardColumns>
-  <Card className="top-card" style={{ width: '15rem' }}>
-    <Card.Img variant="top" style={{height: '10em', width: '15em'}}src="https://placehold.it/50x50" />
+  <Card className="top-card" style={{ width: '20rem' }}>
+    <Card.Img variant="top" style={{height: '10em', width: '20em'}}src="https://placehold.it/50x50" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -21,8 +21,8 @@ const Projects = () => {
     </Card.Footer>
   </Card>
 
-  <Card className="bottom-card" style={{ width: '15rem' }}>
-    <Card.Img variant="top" style={{height: '10em', width: '15em'}} src="https://placehold.it/50x50" />
+  <Card className="bottom-card" style={{ width: '20rem' }}>
+    <Card.Img variant="top" style={{height: '10em', width: '20em'}} src="https://placehold.it/50x50" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -35,8 +35,8 @@ const Projects = () => {
   </Card>
 
 
-  <Card className="top-card" style={{ width: '15rem' }}>
-    <Card.Img variant="top" style={{height: '10em', width: '15em'}}src="https://placehold.it/50x50" />
+  <Card className="top-card" style={{ width: '20rem' }}>
+    <Card.Img variant="top" style={{height: '10em', width: '20em'}}src="https://placehold.it/50x50" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -48,8 +48,8 @@ const Projects = () => {
     </Card.Footer>
   </Card>
 
-  <Card className="bottom-card" style={{ width: '15rem' }}>
-  <Card.Img variant="top" style={{height: '10em', width: '15em'}}src="https://placehold.it/50x50" />
+  <Card className="bottom-card" style={{ width: '20rem' }}>
+  <Card.Img variant="top" style={{height: '10em', width: '20em'}}src="https://placehold.it/50x50" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -61,8 +61,8 @@ const Projects = () => {
     </Card.Footer>
   </Card>
 
-  <Card className="top-card" style={{ width: '15rem' }}>
-    <Card.Img variant="top" style={{height: '10em', width: '15em'}}src="https://placehold.it/50x50" />
+  <Card className="top-card" style={{ width: '20rem' }}>
+    <Card.Img variant="top" style={{height: '10em', width: '20em'}}src="https://placehold.it/50x50" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -74,8 +74,8 @@ const Projects = () => {
     </Card.Footer>
   </Card>
 
-  <Card className="bottom-card" style={{ width: '15rem' }}>
-   <Card.Img variant="top" style={{height: '10em', width: '15em'}}src="https://placehold.it/50x50" />
+  <Card className="bottom-card" style={{ width: '20rem' }}>
+   <Card.Img variant="top" style={{height: '10em', width: '20em'}}src="https://placehold.it/50x50" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
