@@ -3,18 +3,17 @@ import React from 'react';
 import Card from 'react-bootstrap/Card'
 import CardColumns from 'react-bootstrap/CardColumns'
 
+import '../styles/projects.css'
 
 const Projects = () => {
   return(
 <CardColumns>
-
-<Card className="p-3" style={{ width: '25rem' }}>
-  <Card.Img variant="top" src="https://placehold.it/50x50" />
+  <Card className="top-card" style={{ width: '15rem' }}>
+    <Card.Img variant="top" style={{height: '10em', width: '15em'}}src="https://placehold.it/50x50" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+        First card.{' '}
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -22,13 +21,12 @@ const Projects = () => {
     </Card.Footer>
   </Card>
 
-  <Card className="p-3" style={{ width: '25rem' }}>
-  <Card.Img variant="top" src="https://placehold.it/50x50" />
+  <Card className="bottom-card" style={{ width: '15rem' }}>
+    <Card.Img variant="top" style={{height: '10em', width: '15em'}} src="https://placehold.it/50x50" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+        Second card.{' '}
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -36,13 +34,13 @@ const Projects = () => {
     </Card.Footer>
   </Card>
 
-  <Card style={{ width: '25rem' }}>
-    <Card.Img variant="top" src="https://placehold.it/50x50" />
+
+  <Card className="top-card" style={{ width: '15rem' }}>
+    <Card.Img variant="top" style={{height: '10em', width: '15em'}}src="https://placehold.it/50x50" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+        Third card.{' '}
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -50,40 +48,12 @@ const Projects = () => {
     </Card.Footer>
   </Card>
 
-  <Card style={{ width: '25rem' }}>
-  <Card.Img variant="top" src="https://placehold.it/50x50" />
+  <Card className="bottom-card" style={{ width: '15rem' }}>
+  <Card.Img variant="top" style={{height: '10em', width: '15em'}}src="https://placehold.it/50x50" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  
-  <Card className="text-center" style={{ width: '25rem' }}>
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
-      </Card.Text>
-      <Card.Text>
-        <small className="text-muted">Last updated 3 mins ago</small>
-      </Card.Text>
-    </Card.Body>
-  </Card>
-
-  <Card className="text-right" style={{ width: '25rem' }}>
-    <Card.Img variant="top" src="https://placehold.it/50x50" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+        Fourth card.{' '}
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -91,13 +61,25 @@ const Projects = () => {
     </Card.Footer>
   </Card>
 
-  <Card style={{ width: '25rem' }}>
-   <Card.Img variant="top" src="https://placehold.it/50x50" />
+  <Card className="top-card" style={{ width: '15rem' }}>
+    <Card.Img variant="top" style={{height: '10em', width: '15em'}}src="https://placehold.it/50x50" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+        Fifth card.{' '}
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+
+  <Card className="bottom-card" style={{ width: '15rem' }}>
+   <Card.Img variant="top" style={{height: '10em', width: '15em'}}src="https://placehold.it/50x50" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+        Sixth card.{' '}
       </Card.Text>
     </Card.Body>
     <Card.Footer>
