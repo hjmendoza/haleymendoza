@@ -51,8 +51,8 @@ const About = () => {
       <Card.Title>Haley Mendoza</Card.Title>
       <Card.Subtitle className="mb-2 text-muted">Software Developer</Card.Subtitle>
       <Card.Text>
-        Hi! I'm Haley - a Seattle-based full-stack developer with a background in psychology and research. I have always had a keen interest in technology and thus sought to empower myself with technical skills. Through programming, I found everything that I love about research but in tenfold! I am passionate about combining research fundamentals with technology to create impactful products and am currently looking for new opportunities!
-   
+        Hi! I'm Haley - a Seattle-based full-stack developer with a background in psychology and research. I am passionate about combining research fundamentals with technology to create impactful products and am currently looking for new opportunities!
+        <br/>
         In my free time, I enjoy running, baking, hiking, and learning new skills. Connect with me below! 
       </Card.Text>
       <Card.Link href="https://www.linkedin.com/in/haleymendoza/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="LinkedIn" icon={['fab', 'linkedin']} /></Card.Link>
