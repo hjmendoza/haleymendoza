@@ -1,10 +1,10 @@
 import React from 'react';
-import { Navbar, NavItem } from 'react-bootstrap';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { LinkContainer } from 'react-router-bootstrap';
+// import { Navbar, NavItem, Link } from 'react-bootstrap';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
 // import '../styles/navbar.css'
 
 import Landing from './components/landing.js';
+import NavBar from './components/navbar.js';
 import About from './components/about.js';
 import Projects from './components/projects.js';
 import Resume from './components/resume.js';
@@ -16,34 +16,25 @@ library.add(fab)
 class App extends React.Component {
   render() {
     return(
-      <BrowserRouter>
-      <Switch>
-      <Route exact path="/" component={Landing} />
-      <Route exact path="/about" component={About} />
-      <Route exact path="/projects" component={Projects} />
-      <Route exact path="/resume" component={Resume} />
-      <Navbar fixed="top" bg="light">
-      <Navbar.Brand  className="mr-sm-1" href="/">Haley Mendoza</Navbar.Brand>
-        <LinkContainer to="/about">
-          <NavItem>About</NavItem>
-        </LinkContainer>
-  
-        <LinkContainer to="/projects">
-          <NavItem>Projects</NavItem>
-        </LinkContainer>
-  
-        <LinkContainer to="/resume">
-          <NavItem>Resume</NavItem>
-        </LinkContainer>
-      {/* <Nav>
-          <Nav.Link href="#about">About</Nav.Link>
-          <Nav.Link href="#projects">Projects</Nav.Link>
-          <Nav.Link href="#resume">Resume</Nav.Link>
-          <Nav.Link class="ml-auto" className="contact" href="#contact">Contact</Nav.Link>
-      </Nav> */}
-    </Navbar>
-    </Switch>
-    </BrowserRouter>
+    <BrowserRouter>
+    <div className="App">
+      <NavBar />
+      <div className="text-center">
+        <div className="children">
+          <div className="container">
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/projects">Projects</Link>
+            <Link to="/resume">Resume</Link>
+            <Route exact path="/" component={Landing} />
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/resume" component={Resume} />
+          </div>
+        </div>
+      </div>
+    </div>
+  </BrowserRouter>
     )
   }
 }
