@@ -15,6 +15,7 @@
 .card-img-top{
   /* padding-top: 0em; */
   margin-top: 0em;
+  margin-bottom: 0em;
   width: '15rem';
   height: '10rem';
 }
